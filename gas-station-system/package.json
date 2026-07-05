@@ -1,0 +1,19 @@
+{
+  "name": "gas-station-topup-system",
+  "version": "1.0.0",
+  "description": "加油站儲值管理系統 - 前台扣款 + 後台管理 + SQLite + Session 登入",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
